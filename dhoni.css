@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    background: linear-gradient(red,blue);
+    border:solid;
+    border-color: purple;
+}
+.line{
+    height: 8px;
+    width:80px;
+    background-color: black;
+    margin: 5px auto;
+}
+#dhoni{
+    width: 300px;
+    height: 200px;
+    border: solid;
+    border-radius: 50%;
+    margin-top: 10px;
+   
+}
+
+#welcome{
+    border:solid;
+    border-color:orangered;
+    margin: 20px;
+    padding: 20px;
+    background: linear-gradient(black,blue);
+}
+#last{
+    border:solid;
+    border-color:orangered;
+    margin: 20px;
+    padding: 20px;
+    background: linear-gradient(purple,red);
+}
+.menu{
+    background-color: aqua;
+    list-style: none;
+    position: fixed;
+    margin:5px auto;
+    top: 0;
+    padding-left: 500px;
+    cursor: pointer;
+    font-family: fantasy;
+    z-index: 99999;
+    opacity: 0.8;
+    width: 100%;
+}
+.menu:hover{
+    opacity: 1;
+}
+
+.links{
+    float: left;
+    padding: 7px;
+    font-size: 30px;
+    
+}
+ 
+.links:hover{
+    color: red;
+}
+
+h1{
+    font-size: 40px;
+}
